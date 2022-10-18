@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+:root {
+    --star-color-A: white;
+    --star-color-B: transparent;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: "VT323";
+    font-size: 2rem;
+    background: black;
+}
+
+.lable {
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.circle {
+    position: absolute;
+    background-color: var(--star-color-A);
+    border-radius: 50%;
+}
